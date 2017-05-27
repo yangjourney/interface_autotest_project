@@ -7,7 +7,7 @@ import pymysql
 from globalpkg.globalpy import logger
 
 class MyDB:
-    """动作类，获取数据库连接，配置数据库IP，端口等信息，获取数据库连接"""
+    """动作类，获取数据库连接，配置数据库IP，端口等信息，获取数据库连接22"""
 
     def __init__(self, config_file, db):
         config = configparser.ConfigParser()
